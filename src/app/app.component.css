@@ -1,0 +1,63 @@
+h2 {
+  margin: 0;
+  font-size: 16px;
+}
+
+ul {
+  margin: 0;
+  padding: 0 0 0 1.5em;
+}
+
+li {
+  margin: 1.5em 0;
+  padding: 0;
+}
+
+b {
+  /* ?Para los tiempos de los ecventos */
+  margin-rigth: 3px;
+}
+
+.ejemplo-App {
+  display: flex;
+  min-height: 100%;
+  font-family: Helvetica Neue, Helvetica, sans-serif;
+}
+
+.ejemplo-app-sidebar {
+  width: 300px;
+  padding: 12px;
+  line-height: 1.5;
+  background: #eaf9ff;
+  border-right: 1px solid #fcfcfc;
+}
+
+.ejemplo-app-sidebar-section {
+  padding: 2em;
+}
+
+.demo-app-main {
+  flex-grow: 1;
+  padding: 3em;
+}
+
+/* ? El calendario */
+.fc {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.md-form {
+  margin: 5px 0px 15px !important;
+}
+.md-form label {
+  font-size: 14px !important;
+  color: #50649c !important;
+}
+
+.form-control {
+  font-size: 13px !important;
+  border-color: #e8ebf3 !important;
+  height: calc(2.3rem + 2px) !important;
+  color: #2f5275 !important;
+}
